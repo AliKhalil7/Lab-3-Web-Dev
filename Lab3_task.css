@@ -1,0 +1,20 @@
+.head{
+    text-align: center;
+    padding-top: 100px;
+    
+}
+
+.buttons{
+ padding: 20px;  /* Add some padding around the buttons */
+ align-items:center; /* Center the buttons vertically */
+ justify-content: center; /* Center the buttons horizontally */
+ display: flex; /* Use flexbox to center the buttons */
+gap: 20px; /* Add some space between the buttons */
+}
+
+.separator {
+  border: 0; /* Remove the default border */
+  height: 2px; /* Set the height of the line */
+  background-color: black; /* Set the color of the line */
+  width: 100%; /* Make the line span the full width of the container */
+}
